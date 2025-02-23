@@ -1,0 +1,72 @@
+<html lang="es">
+    <!--Tarea HTML y CSS. Realizada por ALBERTO BALAGUER GÓMEZ. 08/02/2025-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Breaking Bad – Que comience el juego!</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body id="bodyfondo">
+    <h3>Breaking Bad – ¡Que comience el juego!</h3>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>Nombre:
+            <input type="text" placeholder="Nombre">
+            <p>Apellidos:
+            <input type="text" placeholder="Apellidos">
+            <p>DNI:
+            <input type="text" placeholder="00000000A">
+            <p>Fecha de nacimiento:
+            <input type="date"  min="1900-01-01" max="2025-01-01" step="2">
+            <p>Correo electrónico:
+            <input type="text" placeholder="...@mail.com">
+            <p>
+            <fieldset>
+                <legend>Dirección Postal</legend>
+                <p>Dirección:
+                <input type="text" placeholder="Calle, número, piso">
+                <p>Código Postal:
+                <input type="text" placeholder="00000">
+                <p>Ciudad:
+                <input type="text" placeholder="Ciudad">
+                <p>País:
+                <input type="text" placeholder="País">
+            </fieldset>
+            <p>
+            <fieldset>
+                <legend>Seleccione sexo</legend>
+                <p>
+                <input type="radio" name="fp" value="ASIR">
+                HOMBRE
+                <p>
+                <input type="radio" name="fp" value="ASIR">
+                MUJER
+            </fieldset>
+            <p>
+            <fieldset>
+                <legend>Seleccionar personaje</legend>
+                    <select name="personajes">
+                        <option value="1">Jessie Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo Fring</option>
+                        <option value="5">Pollos Hermanos</option>
+                        <option value="6">Otros Personajes</option>
+                    </select>    
+            </fieldset>
+            <p>
+            <fieldset>
+                <legend>Dejar un comentario:</legend>
+                <textarea placeholder="Escribir un comentario..." maxlength="5"></textarea>
+            </fieldset>
+            <p>Adjuntar archivo:
+            <input type="file" name="adjuntar" accept=".pdf" multiple>
+            <p>
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
